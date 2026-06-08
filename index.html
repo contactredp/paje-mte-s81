@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+	<title></title>
+
+	<style>
+		#hero {
+		    background: lightcoral;
+		    color: white;
+		    padding: 100px;
+		    text-align: center;
+		}
+		.carousel-item img {
+            height: 300px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .carousel-section {
+            padding: 3rem 0;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+        }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Lenzada</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav mx-auto">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Shop</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">About</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Contact</a>
+	        </li>
+	      </ul>
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Search</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Cart</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Login</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<section id="hero">
+		<div class="container">
+			<h1>Discover Your Style</h1>
+            <p>Explore our latest collection of premium products curated just for you.</p>
+            <a href="#" class="btn btn-accent">Shop Now</a>
+		</div>
+	</section>
+
+	<section class="carousel-section container">
+		<div id="carouselExample" class="carousel slide">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="https://placehold.co/900x300/1a1a2e/ffffff?text=New+Arrivals" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="https://placehold.co/900x300/e94560/ffffff?text=Summer+Sale" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="https://placehold.co/900x300/16213e/ffffff?text=Featured+Collection" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</section>
+
+	<section class="products-section container">
+		<div class="card-group">
+			<div class="card" style="width: 18rem;">
+			  <img src="https://placehold.co/300x200/e0e0e0/555555?text=Product" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Product Title</h5>
+			    <p class="card-text">$19.99</p>
+			    <a href="#" class="btn btn-primary">Add To Cart</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img src="https://placehold.co/300x200/e0e0e0/555555?text=Product" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Product Title</h5>
+			    <p class="card-text">$19.99</p>
+			    <a href="#" class="btn btn-primary">Add To Cart</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img src="https://placehold.co/300x200/e0e0e0/555555?text=Product" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Product Title</h5>
+			    <p class="card-text">$19.99</p>
+			    <a href="#" class="btn btn-primary">Add To Cart</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img src="https://placehold.co/300x200/e0e0e0/555555?text=Product" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Product Title</h5>
+			    <p class="card-text">$19.99</p>
+			    <a href="#" class="btn btn-primary">Add To Cart</a>
+			  </div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 my-4">
+                    <a href=""><h5>Instagram</h5></a>
+                </div>
+                <div class="col-6 col-md-3 my-4">
+                    <a href=""><h5>Facebook</h5></a>
+                </div>
+                <div class="col-6 col-md-3 my-4">
+                    <a href=""><h5>Twitter</h5></a>
+                </div>
+                <div class="col-6 col-md-3 my-4">
+                    <a href=""><h5>Truth</h5></a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2022 Lenzada. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
